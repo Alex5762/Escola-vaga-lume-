@@ -1,0 +1,37 @@
+name: Restore Vagalume assets
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  restore-assets:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout target branch
+        uses: actions/checkout@v4
+        with:
+          ref: fix/restaurar-pagina-vagalume
+
+      - name: Download original assets
+        run: |
+          mkdir -p public/img/vagalume
+          base="https://raw.githubusercontent.com/Alex5762/sites-base-profissionais/sites-base-teste/packages/site-base/public/img/vagalume"
+          curl -fL "$base/hero.jpg" -o public/img/vagalume/hero.jpg
+          curl -fL "$base/atelier.jpg" -o public/img/vagalume/atelier.jpg
+          curl -fL "$base/garden.jpg" -o public/img/vagalume/garden.jpg
+          curl -fL "$base/nursery.jpg" -o public/img/vagalume/nursery.jpg
+          test -s public/img/vagalume/hero.jpg
+          test -s public/img/vagalume/atelier.jpg
+          test -s public/img/vagalume/garden.jpg
+          test -s public/img/vagalume/nursery.jpg
+
+      - name: Commit restored assets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/img/vagalume/*.jpg
+          git commit -m "fix: restore original Vagalume image assets" || exit 0
+          git push origin HEAD:fix/restaurar-pagina-vagalume
