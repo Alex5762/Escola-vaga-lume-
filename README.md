@@ -1,12 +1,12 @@
 # Escola Vaga-Lume 🏫✨
 
-Site institucional desenvolvido como **projeto de estudo e apresentação acadêmica** no curso de Análise e Desenvolvimento de Sistemas.
+Site institucional desenvolvido como **projeto de estudos pessoais** voltado para desenvolvimento web, design de interfaces e criação de sites rápidos, responsivos e visualmente bem estruturados.
 
-A Escola Vaga-Lume é uma escola fictícia criada para fins de estudo, permitindo aplicar conceitos de desenvolvimento web na construção de uma página institucional completa.
+A Escola Vaga-Lume é uma escola fictícia criada para explorar e praticar diferentes conceitos de criação de sites institucionais.
 
 ## 🎯 Objetivo do projeto
 
-O projeto foi desenvolvido para colocar em prática conceitos fundamentais de desenvolvimento web, incluindo:
+O projeto foi desenvolvido para praticar e aprimorar conceitos de desenvolvimento e design web, incluindo:
 
 - HTML semântico;
 - CSS para estilização e layout;
@@ -14,7 +14,10 @@ O projeto foi desenvolvido para colocar em prática conceitos fundamentais de de
 - acessibilidade básica;
 - organização de conteúdo e navegação;
 - experiência do usuário (UX);
-- construção de uma identidade visual para um site institucional.
+- design de interfaces;
+- identidade visual;
+- criação de sites rápidos e leves;
+- estruturação de páginas institucionais.
 
 ## 💻 Tecnologias
 
@@ -80,22 +83,23 @@ npm run preview
 
 A interface foi pensada com abordagem **mobile-first**, buscando proporcionar uma boa experiência em celulares, tablets e computadores.
 
-## 🎓 Finalidade acadêmica
+## 🧪 Estudos e experimentação
 
-Este projeto faz parte dos estudos de desenvolvimento web e serve como material de apresentação para demonstrar a aplicação prática de HTML, CSS e conceitos de construção de interfaces.
+Este projeto faz parte de um processo contínuo de estudos e experimentação em desenvolvimento web e design de interfaces.
 
-Também existe uma versão independente em HTML e CSS puro na branch `versao-html`, destinada especificamente à demonstração dos fundamentos de HTML e CSS.
+A proposta é utilizar projetos como este para testar ideias de layout, identidade visual, organização de conteúdo, responsividade, performance e diferentes abordagens para criação de sites institucionais.
+
+Também existe uma versão independente em HTML e CSS puro na branch `versao-html`, criada para praticar e demonstrar a construção da mesma interface utilizando apenas HTML e CSS.
 
 ## 📌 Status
 
-**Projeto de estudo / apresentação acadêmica.**
+**Projeto de estudos pessoais.**
 
 O conteúdo e a identidade visual da Escola Vaga-Lume são fictícios.
 
 ## 👤 Autor
 
-**Joseph Alexander**  
-Estudante de Análise e Desenvolvimento de Sistemas.
+**Joseph Alexander**
 
 ## 📄 Licença
 
