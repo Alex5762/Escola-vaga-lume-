@@ -1,6 +1,9 @@
 name: Restore Vagalume assets
 
 on:
+  push:
+    branches:
+      - fix/restaurar-pagina-vagalume
   workflow_dispatch:
 
 permissions:
@@ -8,6 +11,7 @@ permissions:
 
 jobs:
   restore-assets:
+    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout target branch
