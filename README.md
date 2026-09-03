@@ -1,60 +1,75 @@
-# Escola Vaga-Lume
+# Escola Vaga-Lume 🏫✨
 
-Site institucional da Escola Vaga-Lume.
+Site institucional desenvolvido como **projeto de estudo e apresentação acadêmica** no curso de Análise e Desenvolvimento de Sistemas.
 
-## Tecnologia
+Esta branch apresenta uma versão do projeto construída **somente com HTML e CSS**, sem dependência de Astro ou de outras ferramentas de framework.
 
-- Astro
-- HTML
-- CSS
-- SVG
-- Imagens locais
+## 🎯 Objetivo do projeto
 
-## Desenvolvimento
+O projeto foi desenvolvido para colocar em prática conceitos fundamentais de desenvolvimento web, incluindo:
 
-Requisitos:
+- HTML semântico;
+- organização e estrutura de páginas;
+- CSS para estilização e layout;
+- responsividade e abordagem mobile-first;
+- acessibilidade básica;
+- organização de conteúdo e navegação;
+- construção de uma identidade visual para um site institucional.
 
-- Node.js 22.13 ou superior
-- npm
+A Escola Vaga-Lume é uma escola fictícia criada para fins de estudo e apresentação.
 
-Instalação e execução:
+## 💻 Tecnologias
 
-```bash
-npm install
-npm run dev
-```
+- **HTML5** — estrutura e conteúdo da página;
+- **CSS3** — estilos, layout, responsividade e efeitos visuais.
 
-Depois, abra o endereço local exibido pelo Astro no terminal.
+Esta versão não utiliza Astro, JavaScript ou bibliotecas externas para executar a página.
 
-## Build
-
-```bash
-npm run build
-```
-
-Para testar a versão de produção localmente:
-
-```bash
-npm run preview
-```
-
-## Estrutura
+## 📁 Estrutura
 
 ```text
-public/
-  img/
-    vagalume/
-      hero.jpg
-      atelier.jpg
-      garden.jpg
-      nursery.jpg
-src/
-  pages/
-    index.astro
-  styles/
-    escola-vagalume.css
+Escola-vaga-lume-/
+├── index.html
+├── style.css
+└── img/
+    └── vagalume/
+        ├── hero.jpg
+        ├── atelier.jpg
+        ├── garden.jpg
+        └── nursery.jpg
 ```
 
-## Observação
+> Os arquivos de imagem precisam estar presentes nessa estrutura para que as imagens locais sejam exibidas corretamente.
 
-Este repositório é uma versão independente do site da Escola Vaga-Lume, organizada para desenvolvimento, apresentação e publicação separadamente do projeto de origem.
+## ▶️ Como visualizar
+
+Por utilizar HTML e CSS puros, o projeto pode ser visualizado diretamente no navegador:
+
+1. Baixe ou clone o repositório.
+2. Entre na pasta do projeto.
+3. Abra o arquivo `index.html` no navegador.
+
+Durante o desenvolvimento, também é possível utilizar um servidor local, como o Live Server.
+
+## 📱 Responsividade
+
+A página foi estruturada para funcionar em diferentes tamanhos de tela, com atenção especial à experiência em dispositivos móveis.
+
+## 🎓 Finalidade acadêmica
+
+Este projeto faz parte dos estudos de desenvolvimento web e serve como material de apresentação para demonstrar a aplicação prática de HTML e CSS na construção de uma página institucional.
+
+## 📌 Status
+
+**Projeto de estudo / apresentação acadêmica.**
+
+O conteúdo e a identidade visual da escola são fictícios.
+
+## 👤 Autor
+
+**Joseph Alexander**  
+Estudante de Análise e Desenvolvimento de Sistemas.
+
+## 📄 Licença
+
+Este projeto possui uma licença própria voltada para uso educacional e de estudo. Consulte o arquivo [`LICENSE.md`](LICENSE.md) para conhecer as condições de uso.
