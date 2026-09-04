@@ -1,99 +1,65 @@
 # Escola Vaga-Lume 🏫✨
 
-Site institucional desenvolvido como **projeto de estudos pessoais** voltado para desenvolvimento web, design de interfaces e criação de sites rápidos, responsivos e visualmente bem estruturados.
+Site institucional fictício desenvolvido como projeto de estudos pessoais em desenvolvimento web e design de interfaces.
 
-A Escola Vaga-Lume é uma escola fictícia criada para explorar e praticar diferentes conceitos de criação de sites institucionais.
+## Estrutura do projeto
 
-## 🎯 Objetivo do projeto
+O repositório mantém duas versões da mesma experiência:
 
-O projeto foi desenvolvido para praticar e aprimorar conceitos de desenvolvimento e design web, incluindo:
+- `main` — versão principal em **Astro**;
+- `versao-html` — versão independente em **HTML e CSS puro**.
+
+A proposta é praticar a construção da mesma interface em duas abordagens, mantendo o projeto leve, responsivo e sem dependência de imagens locais.
+
+## Objetivos de estudo
 
 - HTML semântico;
-- CSS para estilização e layout;
-- responsividade e abordagem mobile-first;
+- CSS e layout responsivo;
+- abordagem mobile-first;
 - acessibilidade básica;
 - organização de conteúdo e navegação;
-- experiência do usuário (UX);
-- design de interfaces;
-- identidade visual;
-- criação de sites rápidos e leves;
-- estruturação de páginas institucionais.
+- UX e identidade visual;
+- performance e simplicidade de manutenção.
 
-## 💻 Tecnologias
+## Versão Astro (`main`)
 
-- **Astro** — estrutura e organização do projeto;
-- **HTML** — estrutura semântica das páginas;
-- **CSS** — estilização, layout e responsividade;
-- **SVG** — elementos gráficos e ícones;
-- **CSS decorativo** — composição visual sem dependência de imagens externas.
+Tecnologias:
 
-## 📁 Estrutura do projeto
-
-```text
-src/
-  pages/
-    index.astro
-  styles/
-    escola-vagalume.css
-```
-
-## ▶️ Desenvolvimento
-
-### Requisitos
-
-- Node.js 22.13 ou superior
-- npm
-
-### Instalação
-
-```bash
-npm install
-```
+- Astro;
+- HTML;
+- CSS;
+- SVG.
 
 ### Executar localmente
 
 ```bash
+npm install
 npm run dev
 ```
 
-Depois, abra no navegador o endereço local exibido pelo Astro no terminal.
-
-## 📦 Build
-
-Para gerar a versão de produção:
+### Build
 
 ```bash
 npm run build
-```
-
-Para visualizar a versão de produção localmente:
-
-```bash
 npm run preview
 ```
 
-## 📱 Responsividade
+Requer Node.js 22.13 ou superior.
 
-A interface foi pensada com abordagem **mobile-first**, buscando proporcionar uma boa experiência em celulares, tablets e computadores.
+## Versão HTML (`versao-html`)
 
-## 🧪 Estudos e experimentação
+A branch `versao-html` contém a versão independente feita somente com HTML e CSS. Basta abrir `index.html` no navegador.
 
-Este projeto faz parte de um processo contínuo de estudos e experimentação em desenvolvimento web e design de interfaces.
-
-A proposta é utilizar projetos como este para testar ideias de layout, identidade visual, organização de conteúdo, responsividade, performance e diferentes abordagens para criação de sites institucionais.
-
-Também existe uma versão independente em HTML e CSS puro na branch `versao-html`, criada para praticar e demonstrar a construção da mesma interface utilizando apenas HTML e CSS.
-
-## 📌 Status
+## Status
 
 **Projeto de estudos pessoais.**
 
-O conteúdo e a identidade visual da Escola Vaga-Lume são fictícios.
+A Escola Vaga-Lume, seu conteúdo, endereço, telefone, depoimentos e demais dados apresentados na interface são fictícios e existem apenas para fins de demonstração e estudo.
 
-## 👤 Autor
+## Autor
 
 **Joseph Alexander**
 
-## 📄 Licença
+## Licença
 
-Este projeto possui uma licença própria voltada para uso educacional e de estudo. Consulte o arquivo [`LICENSE.md`](LICENSE.md) para conhecer as condições de uso.
+Este projeto possui licença própria para uso educacional e de estudo. Consulte [`LICENSE.md`](LICENSE.md).
