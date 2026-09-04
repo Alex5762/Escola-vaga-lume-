@@ -1,75 +1,61 @@
 # Escola Vaga-Lume 🏫✨
 
-Site institucional desenvolvido como **projeto de estudo e apresentação acadêmica** no curso de Análise e Desenvolvimento de Sistemas.
+Site institucional fictício desenvolvido como projeto de estudos pessoais em desenvolvimento web e design de interfaces.
 
-Esta branch apresenta uma versão do projeto construída **somente com HTML e CSS**, sem dependência de Astro ou de outras ferramentas de framework.
+Esta branch contém a versão construída **somente com HTML e CSS puro**, sem Astro, Node.js ou dependências de framework.
 
-## 🎯 Objetivo do projeto
+## Tecnologias
 
-O projeto foi desenvolvido para colocar em prática conceitos fundamentais de desenvolvimento web, incluindo:
+- HTML5;
+- CSS3;
+- SVG inline;
+- Google Fonts.
 
-- HTML semântico;
-- organização e estrutura de páginas;
-- CSS para estilização e layout;
-- responsividade e abordagem mobile-first;
-- acessibilidade básica;
-- organização de conteúdo e navegação;
-- construção de uma identidade visual para um site institucional.
-
-A Escola Vaga-Lume é uma escola fictícia criada para fins de estudo e apresentação.
-
-## 💻 Tecnologias
-
-- **HTML5** — estrutura e conteúdo da página;
-- **CSS3** — estilos, layout, responsividade e efeitos visuais.
-
-Esta versão não utiliza Astro, JavaScript ou bibliotecas externas para executar a página.
-
-## 📁 Estrutura
+## Estrutura
 
 ```text
 Escola-vaga-lume-/
 ├── index.html
 ├── style.css
-└── img/
-    └── vagalume/
-        ├── hero.jpg
-        ├── atelier.jpg
-        ├── garden.jpg
-        └── nursery.jpg
+├── README.md
+└── LICENSE.md
 ```
 
-> Os arquivos de imagem precisam estar presentes nessa estrutura para que as imagens locais sejam exibidas corretamente.
+A página não depende de imagens locais.
 
-## ▶️ Como visualizar
+## Como visualizar
 
-Por utilizar HTML e CSS puros, o projeto pode ser visualizado diretamente no navegador:
+Basta abrir `index.html` diretamente no navegador.
 
-1. Baixe ou clone o repositório.
-2. Entre na pasta do projeto.
-3. Abra o arquivo `index.html` no navegador.
+Também é possível usar um servidor local simples, como Live Server, durante os estudos.
 
-Durante o desenvolvimento, também é possível utilizar um servidor local, como o Live Server.
+## Objetivos de estudo
 
-## 📱 Responsividade
+- HTML semântico;
+- CSS e layout responsivo;
+- abordagem mobile-first;
+- acessibilidade básica;
+- navegação e organização de conteúdo;
+- identidade visual;
+- simplicidade e independência de framework.
 
-A página foi estruturada para funcionar em diferentes tamanhos de tela, com atenção especial à experiência em dispositivos móveis.
+## Relação com a branch principal
 
-## 🎓 Finalidade acadêmica
+- `main` — versão em Astro;
+- `versao-html` — versão em HTML e CSS puro.
 
-Este projeto faz parte dos estudos de desenvolvimento web e serve como material de apresentação para demonstrar a aplicação prática de HTML e CSS na construção de uma página institucional.
+As duas versões representam a mesma experiência visual usando abordagens técnicas diferentes.
 
-## 📌 Status
+## Status
 
-**Projeto de estudo / apresentação acadêmica.**
+**Projeto de estudos pessoais.**
 
-O conteúdo e a identidade visual da escola são fictícios.
+A Escola Vaga-Lume, seu conteúdo, endereço, telefone, depoimentos e demais dados apresentados na interface são fictícios e existem apenas para fins de demonstração e estudo.
 
-## 👤 Autor
+## Autor
 
-**Joseph Alexander**  
-Estudante de Análise e Desenvolvimento de Sistemas.
+**Joseph Alexander**
 
-## 📄 Licença
+## Licença
 
-Este projeto possui uma licença própria voltada para uso educacional e de estudo. Consulte o arquivo [`LICENSE.md`](LICENSE.md) para conhecer as condições de uso.
+Este projeto possui licença própria para uso educacional e de estudo. Consulte [`LICENSE.md`](LICENSE.md).
