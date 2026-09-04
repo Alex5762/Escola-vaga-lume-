@@ -25,18 +25,11 @@ O projeto foi desenvolvido para praticar e aprimorar conceitos de desenvolviment
 - **HTML** — estrutura semântica das páginas;
 - **CSS** — estilização, layout e responsividade;
 - **SVG** — elementos gráficos e ícones;
-- **Imagens locais** — recursos visuais utilizados pelo site.
+- **CSS decorativo** — composição visual sem dependência de imagens externas.
 
 ## 📁 Estrutura do projeto
 
 ```text
-public/
-  img/
-    vagalume/
-      hero.jpg
-      atelier.jpg
-      garden.jpg
-      nursery.jpg
 src/
   pages/
     index.astro
